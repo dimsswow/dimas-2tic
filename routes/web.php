@@ -16,11 +16,11 @@ Route::get('/pcr', function () {
 });
 
 Route::get('/nama/{param1}', function ($param1) {
-    return 'nama saya: ' . $param1;
+    return 'nama saya adalah: ' . $param1;
 });
 
 Route::get('/nim/{param1?}', function ($param1 = '') {
-    return 'nim saya: ' . $param1;
+    return 'nim saya adalah: ' . $param1;
 });
 
 Route::get('/mahasiswa', function () {
