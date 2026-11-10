@@ -38,8 +38,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Start CSS -->
-    <!-- Volt CSS -->
-    <link type="text/css" href="{{ asset('assets-admin/css/volt.css') }}" rel="stylesheet">
+    @include('layouts.admin.css')
     <!-- End CSS -->
 
 </head>
