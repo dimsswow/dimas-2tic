@@ -76,8 +76,6 @@ class UserController extends Controller
 
         $user->name  = $request->name;
         $user->email = $request->email;
-
-        // Password hanya diganti jika diisi
         if ($request->filled('password')) {
             $user->password = Hash::make($request->password);
         }
